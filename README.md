@@ -13,3 +13,7 @@ Aim is to try out different types of statistical and machine learning models on 
 * Start modelling!
 
 * Probably end up with a dashboard using Shiny.
+
+## Dataset ideas
+
+* Frequency and severity dataset for French Motor Third Party Liability [**link**](https://dutangc.github.io/CASdatasets/reference/freMTPL.html)
