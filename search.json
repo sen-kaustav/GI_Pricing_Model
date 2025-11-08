@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Background",
-    "section": "",
-    "text": "TODO: expand this section once we have a bit more structure in terms of what we will be doing.\n\nThe objective is to try out different statistical and machine learning models on a GI (General Insurance) Motor insurance dataset. We will be using an Open Source dataset of a Spanish insurer made available here."
-  },
-  {
     "objectID": "eda.html",
     "href": "eda.html",
     "title": "Exploratory Data Analysis",
@@ -19,5 +12,12 @@
     "title": "Exploratory Data Analysis",
     "section": "",
     "text": "Snapshot of the data\n\nmotor_data &lt;- read_delim(\"data/Motor vehicle insurance data.csv\", delim = \";\")\n\nmotor_data |&gt; \n  select(1:10) |&gt; \n  head()\n\n# A tibble: 6 × 10\n     ID Date_start_contract Date_last_renewal Date_next_renewal Date_birth\n  &lt;dbl&gt; &lt;chr&gt;               &lt;chr&gt;             &lt;chr&gt;             &lt;chr&gt;     \n1     1 05/11/2015          05/11/2015        05/11/2016        15/04/1956\n2     1 05/11/2015          05/11/2016        05/11/2017        15/04/1956\n3     1 05/11/2015          05/11/2017        05/11/2018        15/04/1956\n4     1 05/11/2015          05/11/2018        05/11/2019        15/04/1956\n5     2 26/09/2017          26/09/2017        26/09/2018        15/04/1956\n6     2 26/09/2017          26/09/2018        26/09/2019        15/04/1956\n# ℹ 5 more variables: Date_driving_licence &lt;chr&gt;, Distribution_channel &lt;dbl&gt;,\n#   Seniority &lt;dbl&gt;, Policies_in_force &lt;dbl&gt;, Max_policies &lt;dbl&gt;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Background",
+    "section": "",
+    "text": "TODO: expand this section once we have a bit more structure in terms of what we will be doing.\n\nThe objective is to try out different statistical and machine learning models on a GI (General Insurance) Motor insurance dataset. We will be using an Open Source dataset of a Spanish insurer made available here."
   }
 ]
