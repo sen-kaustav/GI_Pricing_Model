@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute: 
+  freeze: auto
+
 website:
   title: "GI Pricing Model"
   navbar:
@@ -8,9 +11,6 @@ website:
       - href: index.qmd
         text: Home
       - eda.qmd
-
-execute: 
-  freeze: auto
 
 format:
   html:

@@ -1,9 +1,11 @@
 {
-  "hash": "2ed786f72532789ad63a8f2d9720147f",
+  "hash": "814bea622c5d07a1430fc2997c299af8",
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Exploratory Data Analysis\"\nexecute: \n  warning: false\neditor_options: \n  chunk_output_type: console\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\n## Introduction\n\nSnapshot of the data\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmotor_data <- read_delim(\"data/Motor vehicle insurance data.csv\", delim = \";\")\n\nmotor_data |> \n  select(1:10) |> \n  head()\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 6 × 10\n     ID Date_start_contract Date_last_renewal Date_next_renewal Date_birth\n  <dbl> <chr>               <chr>             <chr>             <chr>     \n1     1 05/11/2015          05/11/2015        05/11/2016        15/04/1956\n2     1 05/11/2015          05/11/2016        05/11/2017        15/04/1956\n3     1 05/11/2015          05/11/2017        05/11/2018        15/04/1956\n4     1 05/11/2015          05/11/2018        05/11/2019        15/04/1956\n5     2 26/09/2017          26/09/2017        26/09/2018        15/04/1956\n6     2 26/09/2017          26/09/2018        26/09/2019        15/04/1956\n# ℹ 5 more variables: Date_driving_licence <chr>, Distribution_channel <dbl>,\n#   Seniority <dbl>, Policies_in_force <dbl>, Max_policies <dbl>\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "eda_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
