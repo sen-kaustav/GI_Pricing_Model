@@ -1,11 +1,7 @@
 ---
-title: "Home"
+title: "Background"
 ---
 
-This is a Quarto website.
+> ***TODO:** expand this section once we have a bit more structure in terms of what we will be doing.*
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+The objective is to try out different statistical and machine learning models on a GI (General Insurance) Motor insurance dataset. We will be using an Open Source dataset of a Spanish insurer made available [here](https://link.springer.com/article/10.1007/s13385-024-00398-0).
