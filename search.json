@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Background",
-    "section": "",
-    "text": "TODO: expand this section once we have a bit more structure in terms of what we will be doing.\n\nThe objective is to try out different statistical and machine learning models on a GI (General Insurance) Motor insurance dataset. We will be using an Open Source dataset of a Spanish insurer made available here."
-  },
-  {
     "objectID": "eda.html",
     "href": "eda.html",
     "title": "Exploratory Data Analysis",
@@ -19,5 +12,12 @@
     "title": "Exploratory Data Analysis",
     "section": "",
     "text": "To add details…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Background",
+    "section": "",
+    "text": "TODO: expand this section once we have a bit more structure in terms of what we will be doing.\n\nThe objective is to try out different statistical and machine learning models on a GI (General Insurance) Motor insurance dataset. We will be using an Open Source dataset of a Spanish insurer made available here."
   }
 ]
