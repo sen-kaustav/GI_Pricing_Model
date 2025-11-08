@@ -1,7 +1,28 @@
 ---
 title: "Exploratory Data Analysis"
+execute: 
+  warning: false
+editor_options: 
+  chunk_output_type: console
 ---
+
+```{r}
+#| label: load-packages
+#| echo: false
+
+library(tidyverse)
+```
+
 
 ## Introduction
 
-To add details...
+Snapshot of the data
+
+```{r}
+motor_data <- read_delim("data/Motor vehicle insurance data.csv", delim = ";")
+
+motor_data |> 
+  select(1:10) |> 
+  head()
+```
+
