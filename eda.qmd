@@ -13,7 +13,6 @@ editor_options:
 library(tidyverse)
 ```
 
-
 ## Introduction
 
 Snapshot of the data
@@ -26,3 +25,4 @@ motor_data |>
   head()
 ```
 
+The dataset has `r nrow(motor_data)` rows and `r ncol(motor_data)` columns.
