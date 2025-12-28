@@ -7,14 +7,15 @@ library(tidyverse)
 val_date <- ymd("20191130")
 
 make_age_bins <- function(age_vec) {
-  cut(age_vec, breaks = c(-Inf, 20, seq(25, 75, 5), Inf))
+  cut(age_vec, breaks = c(-Inf, 20, seq(25, 75, 5), Inf), ordered_result = TRUE)
 }
 
 make_senority_bins <- function(senority_vec) {
   cut(
     senority_vec,
     breaks = c(-Inf, 1:10, 15, 20, Inf),
-    labels = c(1:10, "10-15", "15-20", "20+")
+    labels = c(1:10, "10-15", "15-20", "20+"),
+    ordered_results = TRUE
   )
 }
 
@@ -76,6 +77,8 @@ clean_data <-
       "Single driver" = "0",
       "Multiple drivers" = "1"
     ),
+    # Replace missing value with the most common fuel type (Diesel)
+    Type_fuel = replace_na(Type_fuel, "D"),
     Type_fuel = fct_recode(Type_fuel, "Petrol" = "P", "Diesel" = "D")
   ) |>
   filter(Exposure > 0) |>
