@@ -1,5 +1,7 @@
 # GI Pricing Model
 
+> **Note:** This repo has now been archieved in favour of splitting out this into smaller individual repos targetted at specific part of the GLM pricing workflow.
+
 ## Background :briefcase:
 
 _**TODO:** Expand this section once we have a bit more structure in terms of what we will be doing._
